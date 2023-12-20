@@ -20,6 +20,13 @@
             <p>The construction and testing of the model involved generating Mel spectrograms of size 128x1024 from the music tracks in the dataset. These detailed feature representations are then processed through a series of convolutional layers designed to extract salient features, followed by recurrent layers that capture the temporal dynamics of the audio signals. The final mood and theme classification is accomplished via dense layers, culminating in a system capable of understanding and tagging a diverse range of musical expressions.</p>
             <p>The performance of the model, as illustrated by the provided graphs, shows a consistently high accuracy and Area Under the Curve (AUC) on training data, with validation results following closely. This indicates not only the model's ability to learn from the dataset but also its potential to generalize well to unseen data. Despite the inherent challenges of working with low-quality audio, the system demonstrates remarkable efficacy in mood and theme recognition, promising a significant contribution to the automation of music tagging.</p>
         </section>
+        <section id="visualization">
+            <h2>Model Performance</h2>
+            <figure>
+                <img src="images/model_performance.png" alt="Model Performance Graphs" width="600">
+                <figcaption>Figure 1: Training and validation curves showing the Model Accuracy and Model AUC over 30 epochs. The left graph displays the accuracy, with the training accuracy in blue and validation accuracy in orange. The right graph shows the AUC, indicating the model's predictive quality, with higher values representing better performance.</figcaption>
+            </figure>
+        </section>
         <section id="team">
             <h2>Project Team</h2>
             <ul>
