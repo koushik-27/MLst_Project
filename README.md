@@ -1,4 +1,5 @@
-Music Tagging with CRNN using MTG Jamendo Dataset
+#Music Tagging with CRNN using MTG Jamendo Dataset
+
 Overview
 This repository contains the implementation of a music tagging system using a Convolutional Recurrent Neural Network (CRNN). The project focuses on mood/theme recognition in music tracks, utilizing low-quality data from the MTG Jamendo dataset. Mel spectrograms of size 128x1024 are generated from audio data and fed into the CRNN model for effective tagging.
 
